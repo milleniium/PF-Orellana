@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon"  href="../image/favicon.jpg" type="imagen/favicon.icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">TravelHouse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./paquetes.html">Paquetes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./hoteles.html">Hoteles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./info.html">Info</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <button type="button" class="btn btn-outline-secondary"><a href="./login.html">Login</a></button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-login">
+        <form class="form-login">
+            <h1 class="form-login__titulo-login">Logeate</h1>
+            <label class="form-login__label">Usuario</label>
+            <input class="form-login__input" type="email" name="email" placeholder="Ingresa tu Email">
+            <label class="form-login__label">Contraseña</label>
+            <input class="form-login__input" type="password" name="password" placeholder="Contraseña">
+            <p><a href="#">Olvidaste tu contraseña?</a></p>
+            <button class="form-login__button-login">Login</button>
+            <p>ingresa con</p>
+            <div class="form-login__buttons">
+            <button class="form-login__button--google"><img src="../image/google-color-svgrepo-com.svg" alt="google">Google</button>
+            <button class="form-login__button--facebook"><img src="../image/facebook-color-svgrepo-com.svg" alt="facebook">Facebook</button></div>
+            <p>No tienes una cuenta? <a href="#">Create una ahora</a></p>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="footer__box1">
+            <h2 class="footer__box1__titulo">Atención al cliente</h2>
+            <p class="footer__box1__number">0810.123.4567</p>
+            <p class="footer__box1__text">Lunes a viernes de 08 a 20 h</p>
+            <p class="footer__box1__text">Sábados de 08 a 15 h</p>
+            <button class="footer__box1__button">QUIERO SER FRANQUICIA!</button>
+        </div>
+        <div class="footer__box2">
+            <h2 class="footer__box2__titulo">Ventas</h2>
+            <p class="footer__box2__number"><img class="footer__box2__icono" src="../image/phone-icono.svg" alt="#"> 0810.222.3333</p>
+            <p class="footer__box2__number"><img class="footer__box2__icono" src="../image/whatsapp-icono.svg" alt="#"> 911 5555.5555</p>
+            <p class="footer__box2__text">Lunes a domingos y feriados de 8 a 23 h</p>
+        </div>
+        <div class="footer__box3">
+            <h2 class="footer__box3__titulo">TravelHouse</h2>
+            <p class="footer__box3__text">¿Quiénes somos?</p>
+            <p class="footer__box3__text">Formas de pago</p>
+            <p class="footer__box3__text">Sucursales</p>
+            <p class="footer__box3__text">Preguntas frecuentes</p>
+            <p class="footer__box3__text">Ayuda</p>
+        </div>
+        <div class="footer__box4">
+            <h2 class="footer__box4__titulo">Nuestras redes</h2>
+            <img class="footer__box4__icon" src="../image/facebook-icono.svg" alt="facebook">
+            <img class="footer__box4__icon" src="../image/twitter-icono.svg" alt="twitter">
+            <img class="footer__box4__icon" src="../image/instagram-icono.svg" alt="instagram">
+            <img class="footer__box4__icon" src="../image/linkedin-icono.svg" alt="#">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

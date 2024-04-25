@@ -1,0 +1,33 @@
+.box-ofertas{
+    background-color: #E0E0E0 ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    &__logo-mail{
+        height: 32px;
+        height: 32px;
+    }
+    &__titulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+.box2-ofertas{
+    &__input{
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+    }
+    &__button{
+        background-color: $color-turquesa;
+        color: white;
+        width: 150px;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 5px;
+    }
+}
